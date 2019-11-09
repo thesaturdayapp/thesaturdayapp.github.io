@@ -1,0 +1,66 @@
+/* 
+ * Changelog Style Source
+ */
+
+ .release-notes {
+ 	padding-top: 2em;
+  font-size: 110%;
+  max-width: 520px;
+ }
+
+ .release-notes h1.version {
+ 	margin-bottom: 0;
+ }
+
+ .release-notes h1.version::before {
+ 	content: "v ";
+ }
+
+ .release-notes p.version-date {
+ 	  color: rgba(0, 0, 0, 0.5);
+    padding: 5px 0 10px;
+    margin: 0;
+ }
+
+ .release-notes .details {
+  background-color: #f6f8fa;
+  line-height: 1.65;
+  padding: 16px;
+  border-radius: 3px;
+  margin-top: 2em;
+  margin-bottom: 2em;
+ }
+ 
+ /* Badges */
+
+ .badges {
+  padding-left: 0;
+  list-style: none;
+  display: inline;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+ }
+
+ .badges li {
+  display: inline-block;
+  padding:5px 8px;
+  margin-right: 10px;
+  border-radius: 4px;
+  font-weight: 400;
+ }
+
+ .badges li.bug-fixes {
+  background:#ee0701;
+  color: white;
+ }
+
+ .badges li.improvements {
+  background:#eeeeee;
+  color:black;
+ }
+
+ .badges li.new-features {
+  background:rgb(1, 190, 81);
+  color: white;
+ }
